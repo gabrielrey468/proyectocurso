@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <h1>Bienvenidos!!</h1></nav>
+        <h1>Bienvenidos a nuestra Pagina!!</h1></nav>
         <div class="contenedor">
             <form action="./validacion.php" method="post">
             <h2>Login</h2>
