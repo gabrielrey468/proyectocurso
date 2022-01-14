@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contenedor {
+  background: #0466c8;
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, lfr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "nav nav nav nav"
+    "header header header"
+    "section section section"
+    "article article article"
+    "footer footer footer";
+}
+
+nav {
+  background: #1e88e5;
+
+  height: 100px;
+  grid-area: nav;
+}
+
+ul {
+  padding-top: 40px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+header {
+  text-align: center;
+  background: url("./img_sobre_nosotros/imgfond.jpg");
+  background-repeat: no-repeat;
+  grid-area: header;
+}
+
+.imagen {
+  width: 20%;
+  height: 30%;
+}
+
+.imagen2 {
+  width: 20%;
+  height: 20%;
+}
